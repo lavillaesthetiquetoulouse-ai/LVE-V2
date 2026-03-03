@@ -7,9 +7,9 @@ import { PerformanceOptimizer } from '@/components/PerformanceOptimizer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://lavillaesthetique-toulouse.com'),
-  title: 'Médecin Esthétique Toulouse | Dr Baron | Botox · Laser · Injections ⭐ 4.6/5',
-  description: 'Dr Nadine Baron, médecin esthétique Toulouse. Botox, acide hyaluronique, épilation laser, Morpheus 8, peeling. Cabinet Lardenne. ⭐ 4.6/5 · RDV Doctolib 24h/24 · Blagnac, Colomiers.',
-  keywords: 'médecine esthétique, épilation laser, Toulouse, Lardenne, Dr Nadine Baron, injections, botox, acide hyaluronique, peeling',
+  title: 'Médecin Esthétique Toulouse | Dr Baron | Laser · Injections ⭐ 4.6/5',
+  description: 'Dr Nadine Baron, médecin esthétique Toulouse. Acide hyaluronique, épilation laser, Morpheus 8, peeling. Cabinet Lardenne. ⭐ 4.6/5 · RDV Doctolib 24h/24 · Blagnac, Colomiers.',
+  keywords: 'médecine esthétique, épilation laser, Toulouse, Lardenne, Dr Nadine Baron, injections, acide hyaluronique, peeling',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://lavillaesthetique-toulouse.com/'
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico'
   },
   openGraph: {
-    title: 'Médecin Esthétique Toulouse | Dr Baron | Botox · Laser · Injections ⭐ 4.6/5',
-    description: 'Dr Nadine Baron, médecin esthétique Toulouse. Botox, acide hyaluronique, épilation laser, Morpheus 8, peeling. Cabinet Lardenne. ⭐ 4.6/5 · RDV Doctolib 24h/24 · Blagnac, Colomiers.',
+    title: 'Médecin Esthétique Toulouse | Dr Baron | Laser · Injections ⭐ 4.6/5',
+    description: 'Dr Nadine Baron, médecin esthétique Toulouse. Acide hyaluronique, épilation laser, Morpheus 8, peeling. Cabinet Lardenne. ⭐ 4.6/5 · RDV Doctolib 24h/24 · Blagnac, Colomiers.',
     url: 'https://lavillaesthetique-toulouse.com',
     siteName: 'La Villa Esthétique',
     images: [
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Médecin Esthétique Toulouse | Dr Baron | Botox · Laser · Injections ⭐ 4.6/5',
-    description: 'Dr Nadine Baron, médecin esthétique Toulouse. Botox, acide hyaluronique, épilation laser, Morpheus 8, peeling. Cabinet Lardenne. ⭐ 4.6/5 · RDV Doctolib 24h/24 · Blagnac, Colomiers.',
+    title: 'Médecin Esthétique Toulouse | Dr Baron | Laser · Injections ⭐ 4.6/5',
+    description: 'Dr Nadine Baron, médecin esthétique Toulouse. Acide hyaluronique, épilation laser, Morpheus 8, peeling. Cabinet Lardenne. ⭐ 4.6/5 · RDV Doctolib 24h/24 · Blagnac, Colomiers.',
     images: ['https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Logo%20du%20cab/Favicon/og-image.jpg'],
   }
 };
