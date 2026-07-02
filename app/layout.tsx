@@ -1,9 +1,26 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Outfit, Inter } from 'next/font/google';
 import { BrandProvider } from '@/components/brand-provider';
 import { CookieBanner } from '@/components/cookie-banner';
 import { StickyCTA } from '@/components/sticky-cta';
 import { PerformanceOptimizer } from '@/components/PerformanceOptimizer';
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  display: 'swap',
+  variable: '--font-outfit',
+  preload: true,
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  display: 'swap',
+  variable: '--font-inter',
+  preload: false,
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://lavillaesthetique-toulouse.com'),
@@ -67,22 +84,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr">
+    <html lang="fr" className={`${outfit.variable} ${inter.variable}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <link rel="manifest" href="/manifest.json" />
         {/* CSP de fallback - les en-têtes Netlify prennent la priorité */}
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.youtube.com https://s.ytimg.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https:; frame-src 'self' https://www.google.com https://www.doctolib.fr https://www.youtube.com https://youtube.com; object-src 'none'; base-uri 'self';" />
+        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.youtube.com https://s.ytimg.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https: blob:; connect-src 'self' https:; frame-src 'self' https://www.google.com https://www.doctolib.fr https://www.youtube.com https://youtube.com; object-src 'none'; base-uri 'self';" />
         <meta httpEquiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload" />
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
         <meta name="permissions-policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
-        {/* Optimisation fonts - Preload fonts critiques avec font-display:swap optimisé */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" as="style" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" />
-        
+
         {/* Preconnect ressources tierces - limité aux origines critiques */}
         <link rel="preconnect" href="https://fbslsxzirjpyzgqbdkfe.supabase.co" />
         <link rel="dns-prefetch" href="https://www.youtube.com" />

@@ -211,13 +211,6 @@ export default function TreatmentLayout({ children, params }: Props) {
         'addressCountry': 'FR'
       }
     },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': String(metadata.reviewCount),
-      'bestRating': '5',
-      'worstRating': '1'
-    }
   } : null;
 
   const faqLd = metadata?.faq?.length ? {

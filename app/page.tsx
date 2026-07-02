@@ -252,7 +252,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-neutral-100 to-neutral-200 rounded-2xl flex items-center justify-center hover-scale">
                     <img
-                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/traitement-facial.png?width=64&quality=75&format=webp"
+                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/traitement-facial.png?width=64&quality=75&format=webp"
                       alt="Icône traitement facial"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                       width="32"
@@ -299,7 +299,7 @@ export default function HomePage() {
               <div className="relative lg:order-1">
                 <div className="aspect-[4/3] bg-gradient-to-br from-neutral-100/50 to-neutral-200/50 rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover-lift">
                   <img
-                    src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Salle-de-soin-injection-cabinet-docteur-baron-la-villa-esthetique.webp?width=900&quality=80"
+                    src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Salle-de-soin-injection-cabinet-docteur-baron-la-villa-esthetique.webp?width=800&quality=80&format=webp"
                     alt="Salle de soin injection - Cabinet Dr Baron La Villa Esthétique"
                     className="w-full h-full object-cover"
                     loading="lazy"
@@ -326,7 +326,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-brand-subtle to-laser-subtle rounded-2xl flex items-center justify-center hover-scale">
                     <img
-                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/Morpheus8%20machine-dr-baron-la-villa-esthetique.png?width=64&quality=75&format=webp"
+                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/Morpheus8%20machine-dr-baron-la-villa-esthetique.png?width=64&quality=75&format=webp"
                       alt="Icône Morpheus8"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                       width="32"
@@ -377,9 +377,10 @@ export default function HomePage() {
               <div className="relative">
                 <div className="aspect-[4/3] bg-gradient-to-br from-brand-subtle/50 to-laser-subtle/50 rounded-2xl sm:rounded-3xl overflow-hidden hover-lift">
                   <img
-                    src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Traitement%20visage.webp?width=900&quality=80"
+                    src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Traitement%20visage.webp?width=1000&quality=80&format=webp"
                     alt="Traitement visage - Cabinet Dr Baron La Villa Esthétique"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div className="absolute -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-2xl shadow-xl flex items-center justify-center">
@@ -403,7 +404,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-brand-subtle to-laser-subtle rounded-2xl flex items-center justify-center hover-scale">
                     <img
-                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/laser%20(1).png?width=64&quality=75&format=webp"
+                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/laser%20(1).png?width=64&quality=75&format=webp"
                       alt="Icône laser médical"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                       width="32"
@@ -456,51 +457,57 @@ export default function HomePage() {
                     }}>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/SALLE%20CLARITY%202%20DR%20LASER.webp?width=900&quality=80"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/SALLE%20CLARITY%202%20DR%20LASER.webp?width=800&quality=80&format=webp"
                           alt="Salle Clarity 2 Laser pas cher"
                           className="w-full h-full object-cover"
                         />
                       </div>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/cryolipolyse%20et%20morpheus%208%20salle.webp?width=900&quality=80"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/cryolipolyse%20et%20morpheus%208%20salle.webp?width=800&quality=80&format=webp"
                           alt="Salle Cryolipolyse et Morpheus 8"
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                       </div>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/CRISTAL%20FIT.webp?width=900&quality=80"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/CRISTAL%20FIT.webp?width=800&quality=80&format=webp"
                           alt="Salle Cristal Fit"
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                       </div>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/cristal%20fit%202.webp?width=900&quality=80"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/cristal%20fit%202.webp?width=800&quality=80&format=webp"
                           alt="Salle Cristal Fit 2"
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                       </div>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/SALLE%20DETATOUAGE%20DOCTEUR%20LASER.webp?width=900&quality=80"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/SALLE%20DETATOUAGE%20DOCTEUR%20LASER.webp?width=800&quality=80&format=webp"
                           alt="Salle Détatouage Laser pas cher"
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                       </div>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/laser-detatouage--hollywood-spectra-dr-baron-esthetique-la-villa-esthetique-toulouse.jpg?width=900&quality=80&format=webp"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/laser-detatouage--hollywood-spectra-dr-baron-esthetique-la-villa-esthetique-toulouse.jpg?width=800&quality=80&format=webp"
                           alt="Laser Détatouage Hollywood Spectra - Dr Baron"
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                       </div>
                       <div className="carousel-slide flex-shrink-0 w-full h-full">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/Le%20cabinet/laser-Limecca-dr-baron-esthetique-la-villa-esthetique-toulouse.jpg?width=900&quality=80&format=webp"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/Le%20cabinet/laser-Limecca-dr-baron-esthetique-la-villa-esthetique-toulouse.jpg?width=800&quality=80&format=webp"
                           alt="Laser Lumecca - Dr Baron La Villa Esthétique"
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -562,7 +569,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-brand-subtle to-laser-subtle rounded-2xl flex items-center justify-center hover-scale">
                     <img
-                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/PRP-la-villa-esthetique-dr-baron-cehveux.png?width=64&quality=75&format=webp"
+                      src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/PRP-la-villa-esthetique-dr-baron-cehveux.png?width=64&quality=75&format=webp"
                       alt="Icône PRP cheveux"
                       className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
                       width="32"
@@ -735,7 +742,7 @@ export default function HomePage() {
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 flex-shrink-0">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/A-lecoute-des-patients-dr-baron-la-villa-esthetique-toulouse-lardenne.png?width=96&quality=75&format=webp"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/A-lecoute-des-patients-dr-baron-la-villa-esthetique-toulouse-lardenne.png?width=96&quality=75&format=webp"
                           alt="À l'écoute des patients"
                           className="w-full h-full object-contain rounded-lg"
                           width="48"
@@ -755,7 +762,7 @@ export default function HomePage() {
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 flex-shrink-0">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/sur-mesure-dr-baron-la-villa-esthetique-toulouse-lardenne.png?width=96&quality=75&format=webp"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/sur-mesure-dr-baron-la-villa-esthetique-toulouse-lardenne.png?width=96&quality=75&format=webp"
                           alt="Sur mesure"
                           className="w-full h-full object-contain rounded-lg"
                           width="48"
@@ -775,7 +782,7 @@ export default function HomePage() {
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 flex-shrink-0">
                         <img
-                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/object/public/Images/icones%20medicales/innovations-dr-baron-la-villa-esthetique-toulouse-lardenne.png?width=96&quality=75&format=webp"
+                          src="https://fbslsxzirjpyzgqbdkfe.supabase.co/storage/v1/render/image/public/Images/icones%20medicales/innovations-dr-baron-la-villa-esthetique-toulouse-lardenne.png?width=96&quality=75&format=webp"
                           alt="Innovation"
                           className="w-full h-full object-contain rounded-lg"
                           width="48"
